@@ -1,0 +1,360 @@
+@import url('fontawesome-free-6.5.2-desktop.zip');
+*{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+header {
+    background-color: #74676F;
+    width: 100%;
+    position: fixed;
+    z-index: 999;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 200px;
+}
+hr {
+    color: #FADCD5;
+}
+
+.logo {
+    text-decoration: none;
+    color:#D0BCB1;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 1.8em;
+
+}
+.navigation {
+    color: #D0BCB1;
+    text-decoration: none;
+    font-size:1. 1em;
+    font-weight: 500;
+    padding-left: 30px;
+}
+.navigation a:hover {
+    color:#AE8381;
+}
+.logo :hover {
+color: #AE8381;
+}
+section {
+    padding: 100px  200px; 
+}
+.main {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items:center;
+    background: url('imges/womaan.jpg') no-repeat;
+    background-size:cover;
+    background-position: center;
+    background-attachment:fixed ;
+
+}
+.main h2 {
+    color: #E8DCD6;
+    font-size: 1.4em;
+    font-weight: 500;
+}
+.main h2 span {
+    display: inline-block;
+    margin-top: 10%;
+    color:  #664242;
+    font-size: 2em;
+    font-weight: 600;
+}
+.main h3 {
+    color: #E8DCD6;
+    font-size: 2em;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+.main-btn {
+    color: #664242;
+    background-color:#D0BCB1;
+    text-decoration: none;
+    font-size: 1.1em;
+    font-weight: 600;
+    display: inline-block;
+    padding:0.9375em 2.1875em ;
+    letter-spacing: 1px;
+    border-radius: 20px;
+    margin-bottom: 40px;
+    transition: 0.7s ease;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.main-btn:hover {
+    color: #E8DCD6;
+   background-color: #74676F;
+   transform:  scale(1.1,);
+}
+
+.title{
+    display: flex;
+    justify-content: center;
+    color: #664242;
+    font-size: 2.2em;
+    font-weight: 800;
+    margin-bottom: 30px;
+}
+.title-p{
+    display: flex;
+    justify-content: center;
+    color: #E8DCD6;
+    font-size: 2.2em;
+    font-weight: 800;
+    margin-bottom: 30px;
+}
+.content {
+display: flex;
+justify-content: center;
+flex-direction: row;
+flex-wrap: wrap;
+}
+.card {
+    background-color: #E8DCD6;
+    width: 21.25em;
+    box-shadow:0 5px 25px rgba(red, green, blue, alpha 15%) ;
+    border-radius: 50px;
+    border-color: #664242;
+    padding: 15px;
+    margin: 15px;
+    transition: 0.7s ease;
+}
+.p {
+    background-color: #D0BCB1;
+    text-align: center;
+
+}
+.card:hover{
+   transform: scale(1.0);
+   box-shadow: 0 5px 25px #190019;
+}
+.icon {
+    color:  #664242;
+    font-size: 8em;
+    text-align: center;
+    }
+.info {
+    text-align: center;
+}
+.info h3{
+    color: #664242;
+    font-size: 1.2em;
+    font-weight: 700;
+    margin: 10px;
+}
+.social-icons .insta{
+color:#664242;
+font-size: 1.7em;
+height: 40px;
+width: 40px;
+margin: 3px;
+padding: 3px;
+transition: 0.7s ease;
+
+}
+.social-icons .link{
+    color: #664242;
+    height: 40px;
+    width: 40px;
+    margin: 1px;
+    padding: 1px;
+    transition: 0.7s ease;
+    border-radius: 10px;
+    
+}
+
+.social-icons .beha{
+    color: #664242;
+    height: 40px;
+    width: 40px;
+    margin: 1px;
+    padding: 1px;
+    transition: 0.7s ease;
+    border-radius: 10px;
+
+}
+.social-icons :hover{
+    width: 30px;
+    height: 30px;
+    color: #D0BCB1;
+    background:scroll;
+    transform: scale(1.1);
+    background-color:#FADCD5;
+    border-radius: 10px;
+}
+.projects {
+    color:#E8DCD6;
+    background-color:black;
+}
+
+.projects .content{
+    margin-top: 30px;
+}
+.project-card{
+    min-height: 20em;
+    width: 20em;
+    overflow: hidden;
+    border-radius: 10px;
+    margin: 20px;
+    transition: 0.7s ease;
+    box-shadow: #664242;
+}
+.project-card :hover{
+    transform: scale(0.9);
+
+}
+.project-image img{
+    min-height: 19em;
+    height: 19em;
+    margin: 19px;
+    transition: 0.7s ease;
+    border-radius: 10px;
+}
+.project-info{
+    padding:0em ;
+}
+.project-categ{
+    font-size: 1.5em;
+    color:#74676F;
+}
+.project-title{
+    color: #D0BCB1;
+    display: flex;
+    justify-content: space-between;
+    text-transform: uppercase;
+    font-weight: 800;
+    margin-top: 10px;
+}
+.more-details{
+    text-decoration: none;
+    color:lightskyblue;
+}
+.more-details :hover{
+color: red;
+}
+.info .envelope{
+ font-size: 0.5em;
+
+}
+.Contact .info h3{
+    color: #664242;
+    background-color: #D0BCB1;
+    border: #664242;
+    border-radius: 9cap;
+}
+.Contact .info p{
+    font-size: 1.3em;
+}
+.info .whatsaap{
+color: #664242;
+font-size: 1.8em;
+margin: 50px;
+padding: 50px;
+}
+.info .envelope{
+    color: #664242;
+    font-size: 1.8em;
+    margin: 50px;
+    padding: 50px;
+}
+.info .phone{
+    color: #664242;
+    font-size: 50px;
+    margin: 50px;
+    padding: 50px;
+}
+.card .icon{
+    font-size: 1.8em;
+
+}
+.footer{
+    background-color: #74676F;
+    color: #D0BCB1;
+    padding: 1em;
+    display: flex;
+    justify-content: space-between;
+}
+.footer-title{
+    font-size:0.3em ;
+    font-weight:300;
+}
+.footer-title span{
+    color:#ffff;
+}
+.footer .social-icons a{
+font-size: 20px;
+}
+.myForm .fname {
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+    text-transform: uppercase;
+    font-weight: 800;
+    margin-top: 10px;
+    color: #D0BCB1;
+}
+@font-face {
+    font-family: "bootstrap-icons";
+    src: url("../fonts/bootstrap-icons.woff2?524846017b983fc8ded9325d94ed40f3") format("woff2"),
+  url("../fonts/bootstrap-icons.woff?524846017b983fc8ded9325d94ed40f3") format("woff");
+  }
+  
+
+@media  (max-width: 1023px){
+    header{
+        padding: 12px 20px;
+    }
+    .navigation a{
+        padding-left: 9px;
+    }
+    .title{
+        font-size: 1.8em ;
+    }
+    section{
+        padding: 88px 20px;
+    }
+    .main-content h2{
+     font-size: 1em;
+    }
+    .main-content h3{
+        font-size:1.6em ;
+    }
+    .content{
+        flex-direction: column;
+        align-items: center;
+    }
+    .myForm{
+        min-height: 20em;
+        width: 20em;
+        overflow: hidden;
+        border-radius: 10px;
+        margin: 20px;
+        transition: 0.7s ease;
+        box-shadow: #74676F;
+    }
+    @media (max-width:641px) {
+        body{
+            font-size: 12px;
+        }
+        .main-content h2{
+            font-size: 0.8em;
+        }
+        .main-content h3{
+            font-size: 1.4em;
+        }
+    }
+    @media  (max-width:300px) {
+        body{
+            font-size: 10px;
+        }
+        
+    }
+}

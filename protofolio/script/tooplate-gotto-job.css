@@ -1,0 +1,461 @@
+
+:root {
+  --white-color:                  #ffffff;
+  --primary-color:                #664242;
+  --secondary-color:              #D0BCB1;
+  --custom-btn-bg-color:          #f65129;
+  --social-icon-link-bg-color:    #664242;
+  --dark-color:                   #664242;
+  --border-color:                 #74676F;
+
+  --body-font-family:             'League Spartan', sans-serif;
+
+  --h1-font-size:                 62px;
+  --h2-font-size:                 48px;
+  --h3-font-size:                 36px;
+  --h4-font-size:                 32px;
+  --h5-font-size:                 24px;
+  --h6-font-size:                 22px;
+  --p-font-size:                  20px;
+  --btn-font-size:                16px;
+  --copyright-font-size:          14px;
+
+  --border-radius-large:          100px;
+  --border-radius-medium:         30px;
+  --border-radius-small:          10px;
+
+  --font-weight-thin:             100;
+  --font-weight-light:            300;
+  --font-weight-normal:           400;
+  --font-weight-semibold:         600;
+  --font-weight-bold:             700;
+}
+
+body {
+  background-color: var(--white-color);
+  font-family: var(--body-font-family); 
+}
+
+
+/*---------------------------------------
+  TYPOGRAPHY               
+-----------------------------------------*/
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: var(--dark-color);
+  font-weight: var(--font-weight-semibold);
+  letter-spacing: -0.5px;
+}
+
+h1,
+h2 {
+  letter-spacing: -1.5px;
+}
+
+h1 {
+  font-size: var(--h1-font-size);
+  line-height: normal;
+  font-weight: var(--font-weight-bold);
+}
+
+h2 {
+  font-size: var(--h2-font-size);
+}
+
+h3 {
+  font-size: var(--h3-font-size);
+}
+
+h4 {
+  font-size: var(--h4-font-size);
+}
+
+h5 {
+  font-size: var(--h5-font-size);
+}
+
+h6 {
+  font-size: var(--h6-font-size);
+}
+
+p {
+  color: black;
+  font-size: var(--p-font-size);
+  font-weight: var(--font-weight-light);
+}
+
+ul li {
+  color: var(--p-color);
+  font-size: var(--p-font-size);
+  font-weight: var(--font-weight-light);
+}
+
+a, 
+button {
+  touch-action: manipulation;
+  transition: all 0.3s;
+}
+
+a {
+  color:  #D0BCB1;
+  text-decoration: none;
+}
+
+a:hover {
+  color: whitesmoke;
+}
+
+b,
+strong {
+  font-weight: var(--font-weight-bold);
+}
+
+
+
+/*---------------------------------------
+  CUSTOM BUTTON               
+-----------------------------------------*/
+
+
+
+/*---------------------------------------
+  SITE HEADER              
+-----------------------------------------*/
+
+
+
+/*---------------------------------------
+  HERO              
+-----------------------------------------*/
+.hero-section {
+  background-image: url('c:\Users\ZAINAB\Desktop\Mr.Bash Project\womaan.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: right;
+  position: relative;
+  padding-top: 150px;
+  padding-bottom: 150px;
+}
+
+.hero-section .section-overlay {
+  background:  #D0BCB1;
+}
+
+.hero-section .custom-border-btn {
+  border-color: #664242;
+  color: #664242;
+}
+
+.hero-section .custom-border-btn:hover {
+  background: #664242;
+  color: #D0BCB1;
+}
+
+.hero-form {
+  background: #74676F;
+  border-radius: var(--border-radius-small);
+  padding: 40px;
+}
+
+.hero-form .form-control {
+  padding-bottom: 10px;
+}
+
+.hero-form button[type="submit"] {
+  padding-top: 10px;
+  padding-bottom: 8px;
+}
+
+.hero-form .input-group-text i {
+  position: relative;
+  top: 2px;
+}
+
+.hero-section .badge {
+  background: transparent;
+  color: #E8DCD0;
+}
+
+.hero-section .badge:hover {
+  background: #E8DCD6;
+  color: #664242;
+}
+
+.badge {
+  background: #D0BCB1;
+  border: 1px solid #D0BCB1;
+  border-radius: var(--border-radius-medium);
+  color:#664242;
+  font-weight: var(--font-weight-normal);
+  line-height: normal;
+  margin-right: 5px;
+  margin-left: 5px;
+  padding: 8px 12px;
+  padding-bottom: 6px;
+}
+
+.badge-level {
+  background: #664242;
+  color: #D0BCB1;
+}
+
+.badge:hover {
+  background: #74676F;
+  color: #D0BCB1;
+}
+
+
+
+/*---------------------------------------
+  SITE FOOTER              
+-----------------------------------------*/
+.site-footer {
+  padding-top: 50px;
+  padding-bottom: 0;
+}
+
+.site-footer-link {
+  color: var(--p-color);
+}
+
+.site-footer-bottom {
+  background: black;
+  margin-top: 100px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  position: relative;
+}
+
+.site-footer-bottom .footer-menu-link {
+  color: black;
+  font-size: var(--copyright-font-size);
+  margin-right: 5px;
+  margin-left: 5px;
+}
+
+.site-footer-title {
+  margin-bottom: 30px;
+}
+
+.site-footer-bottom p,
+.copyright-text {
+  color: var(--white-color);
+  font-size: var(--copyright-font-size);
+  margin-bottom: 10;
+}
+
+.copyright-text {
+  margin-right: 400px;
+}
+
+.sponsored-link {
+  color: var(--white-color);
+  font-weight: normal;
+}
+
+.footer-menu {
+  justify-content: end;
+  margin: 0;
+  padding:0;
+}
+
+.footer-menu-item {
+  list-style: none;
+  display: block;
+}
+
+.footer-menu-link {
+  color: black;
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 10px;
+  margin-bottom: 5px;
+}
+
+
+
+
+
+/*---------------------------------------
+  RESPONSIVE STYLES               
+-----------------------------------------*/
+@media screen and (min-width: 1025px) {
+  .job-featured-section .job-thumb {
+    max-width: 1120px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+}
+
+@media screen and (min-width: 991px) {
+  .google-map {
+    height: 100%;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  h1 {
+    font-size: 48px;
+  }
+
+  h2 {
+    font-size: 36px;
+  }
+
+  h3 {
+    font-size: 32px;
+  }
+
+  h4 {
+    font-size: 28px;
+  }
+
+  h5 {
+    font-size: 20px;
+  }
+
+  h6 {
+    font-size: 18px;
+  }
+
+  .section-padding,
+  .cta-section {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  .about-page .about-section {
+    padding-top: 50px;
+  }
+
+  .custom-btn {
+    padding: 12px 20px;
+  }
+
+  .navbar-collapse {
+    padding-bottom: 20px;
+  }
+
+  .navbar-expand-lg .navbar-nav .nav-link {
+    padding: 10px;
+  }
+
+  .navbar-expand-lg .navbar-nav .nav-link.custom-btn {
+    margin-top: 10px;
+  }
+
+  .page-link {
+    font-size: 12px;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    margin-right: 5px;
+    margin-left: 5px;
+  }
+
+  .custom-text-block {
+    padding: 50px 30px;
+  }
+
+  .hero-section {
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+
+  .badge {
+    margin-top: 5px;
+  }
+
+  .counter-number, 
+  .counter-number-text {
+    font-size: var(--h2-font-size);
+  }
+
+  .custom-border-radius-start {
+    border-radius: var(--border-radius-medium) var(--border-radius-medium) 0 0;
+  }
+
+  .custom-border-radius-end {
+    border-radius: 0 0 var(--border-radius-medium) var(--border-radius-medium);
+  }
+
+  .job-body p {
+    font-size: var(--btn-font-size);
+  }
+
+  .job-location {
+    min-width: 140px;
+  }
+
+  .job-price {
+    min-width: inherit;
+    margin-top: 5px;
+    margin-left: 0;
+  }
+
+  .hero-form button[type="submit"] {
+    margin-bottom: 0;
+  }
+
+  .site-footer {
+    padding-top: 50px;
+  }
+
+  .site-footer-bottom {
+    margin-top: 50px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  h1 {
+    font-size: 40px;
+  }
+
+  h2 {
+    font-size: 28px;
+  }
+
+  h3 {
+    font-size: 26px;
+  }
+
+  h4 {
+    font-size: 22px;
+  }
+
+  h5 {
+    font-size: 20px;
+  }
+
+  .badge {
+    margin: 10px 10px 5px 0;
+  }
+
+  .page-link {
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+  }
+
+  .counter-thumb {
+    margin: 10px;
+  }
+
+  .counter-number, 
+  .counter-number-text {
+    font-size: var(--h3-font-size);
+  }
+
+  .job-date {
+    margin-top: 5px;
+  }
+
+  .job-detail-share {
+    margin: 20px auto 0 auto;
+  }
+}
+
